@@ -12,7 +12,7 @@ def contain_a(array)
   new_array = Array.new
   array.each do |x|
     if x.include?"a"
-      new_array << x      
+      new_array << x
     end
     end
     new_array
